@@ -34,6 +34,10 @@
             rs-python
             jupyter-all
           ];
+
+          env = {
+            TP_MATERIALS = "./tp_materials";
+          };
         };
       }
     );
